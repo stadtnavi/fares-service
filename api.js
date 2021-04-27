@@ -4,7 +4,9 @@ const pino = require('pino')
 const express = require('express')
 const createCors = require('cors')
 const compression = require('compression')
+const {json: parseJSONBody} = require('body-parser')
 const pkg = require('./package.json')
+const validateItinerary = require('./lib/validate-itinerary')
 
 const mockFares = [{
 	// https://github.com/HSLdevcom/digitransit-ui/blob/8d756832f6b986a0d38a16db1e0f5774d4d19c64/app/util/fareUtils.js
@@ -66,12 +68,32 @@ const createApi = (cfg = {}) => {
 
 	// todo: prevent caching?
 	// todo: expose TRIAS response times via Server-Timing?
-	api.post('/fares', (req, res) => {
-		// todo: parse & validate req.body, send 400 on errors
+	api.post('/fares', parseJSONBody(), (req, res, next) => {
+		const itinerary = req.body
+		try {
+			validateItinerary(itinerary)
+		} catch (validationError) {
+			validationError.statusCode = 400
+			return next(validationError)
+		}
 
 		// todo: find fares
 		// todo: generate ticket link
 		res.json(mockFares)
+		next()
+	})
+
+	api.use((error, req, res, next) => {
+		logger.error(error)
+		if (!res.headersSent) {
+			res.status(error.statusCode || 500)
+			res.json({
+				...error,
+				message: error.message,
+				statusCode: undefined,
+			})
+		}
+		next()
 	})
 
 	return api
