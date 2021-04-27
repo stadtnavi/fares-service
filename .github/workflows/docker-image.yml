@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   tests:
-    name: lint
+    name: lint, build
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -19,6 +19,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run lint
+    - run: npm run build
     # todo: run tests
 
   docker:

@@ -22,5 +22,6 @@ docker run -d -p 3000:3000 stadtnavi/ticketing-service
 git clone https://github.com/stadtnavi/ticketing-service.git
 cd ticketing-service
 npm install --production
+npm run build
 npm start
 ```
