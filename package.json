@@ -20,6 +20,7 @@
 		"transit"
 	],
 	"scripts": {
+		"lint": "eslint .",
 		"start": "node index.js"
 	},
 	"engines": {
@@ -32,5 +33,6 @@
 		"pino": "^6.11.3"
 	},
 	"devDependencies": {
+		"eslint": "^7.25.0"
 	}
 }
