@@ -1,0 +1,21 @@
+name: build & publish Docker image
+on:
+  push:
+    branches:
+      - main
+jobs:
+  # todo: run tests
+
+  docker:
+    name: build & publish Docker image
+    # needs: tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Publish to Dockerhub
+        uses: elgohr/Publish-Docker-Github-Action@master
+        with:
+          name: ${{ github.repository }}
+          username: ${{ secrets.DOCKER_USER }}
+          password: ${{ secrets.DOCKER_AUTH}}
+          tags: "latest,${{ github.sha }}"
