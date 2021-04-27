@@ -1,0 +1,1210 @@
+{
+	"startTime": 1619515712000,
+	"endTime": 1619517072000,
+	"walkDistance": 1142.087,
+	"duration": 1360,
+	"fares": null,
+	"legs": [
+		{
+			"mode": "WALK",
+			"alerts": null,
+			"agency": null,
+			"from": {
+				"lat": 48.6059715,
+				"lon": 8.8583072,
+				"name": "Affstätt,  Herrenberg",
+				"vertexType": "NORMAL",
+				"bikeRentalStation": null,
+				"stop": null
+			},
+			"to": {
+				"lat": 48.604809,
+				"lon": 8.859924,
+				"name": "Affstätt Nelkenstr.",
+				"vertexType": "TRANSIT",
+				"bikeRentalStation": null,
+				"stop": {
+					"gtfsId": "1:de:08115:4854:0:3",
+					"code": null,
+					"platformCode": null,
+					"zoneId": null,
+					"alerts": [],
+					"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NTQ6MDoz"
+				},
+				"bikePark": null,
+				"carPark": null
+			},
+			"legGeometry": {
+				"length": 7,
+				"points": "}itgH{`au@z@S`BiAq@wGz@Qr@M@@"
+			},
+			"intermediatePlaces": null,
+			"realTime": false,
+			"realtimeState": null,
+			"transitLeg": false,
+			"rentedBike": false,
+			"startTime": 1619515712000,
+			"endTime": 1619515920000,
+			"interlineWithPreviousLeg": false,
+			"distance": 266.289,
+			"duration": 208,
+			"intermediatePlace": false,
+			"route": null,
+			"trip": null
+		},
+		{
+			"mode": "BUS",
+			"alerts": null,
+			"agency": {
+				"name": "VVS",
+				"url": "http://www.vvs.de",
+				"fareUrl": null,
+				"id": "QWdlbmN5OjE6MQ"
+			},
+			"from": {
+				"lat": 48.604809,
+				"lon": 8.859924,
+				"name": "Affstätt Nelkenstr.",
+				"vertexType": "TRANSIT",
+				"bikeRentalStation": null,
+				"stop": {
+					"gtfsId": "1:de:08115:4854:0:3",
+					"code": null,
+					"platformCode": null,
+					"vehicleMode": "BUS",
+					"zoneId": null,
+					"alerts": [],
+					"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NTQ6MDoz"
+				}
+			},
+			"to": {
+				"lat": 48.595543,
+				"lon": 8.86597,
+				"name": "Herrenberg Reinhold-Schick-Pl.",
+				"vertexType": "TRANSIT",
+				"bikeRentalStation": null,
+				"stop": {
+					"gtfsId": "1:de:08115:7013:0:3",
+					"code": null,
+					"platformCode": null,
+					"zoneId": null,
+					"alerts": [],
+					"id": "U3RvcDoxOmRlOjA4MTE1OjcwMTM6MDoz"
+				},
+				"bikePark": null,
+				"carPark": null
+			},
+			"legGeometry": {
+				"length": 39,
+				"points": "_ctgHqmau@pEy@rC[nCSpCAvBLvFv@xACpAShE_Cl@Yb@I??t@AxCPzAE|Ai@rAeAJIRu@Da@\\ENDVz@j@Jx@bD?PWTk@wB??y@{COE]DGe@{@yCk@_BUc@IG?_M"
+			},
+			"intermediatePlaces": [
+				{
+					"arrivalTime": 1619516040000,
+					"stop": {
+						"gtfsId": "1:de:08115:4848:0:4",
+						"lat": 48.597443,
+						"lon": 8.861043,
+						"name": "Herrenberg Mühlweg",
+						"code": null,
+						"platformCode": null,
+						"zoneId": null,
+						"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDg6MDo0"
+					}
+				},
+				{
+					"arrivalTime": 1619516160000,
+					"stop": {
+						"gtfsId": "1:de:08115:3235:1:2",
+						"lat": 48.594288,
+						"lon": 8.861323,
+						"name": "Herrenberg Kalkofenstr.",
+						"code": null,
+						"platformCode": null,
+						"zoneId": null,
+						"id": "U3RvcDoxOmRlOjA4MTE1OjMyMzU6MToy"
+					}
+				}
+			],
+			"realTime": false,
+			"realtimeState": null,
+			"transitLeg": true,
+			"rentedBike": null,
+			"startTime": 1619515920000,
+			"endTime": 1619516280000,
+			"interlineWithPreviousLeg": null,
+			"distance": 1775.2294727164706,
+			"duration": 360,
+			"intermediatePlace": false,
+			"route": {
+				"shortName": "773",
+				"color": "ff0000",
+				"gtfsId": "1:31-773-j21-4",
+				"longName": "Herrenberg - Deckenpfronn - Calw",
+				"desc": null,
+				"agency": {
+					"gtfsId": "1:1",
+					"fareUrl": null,
+					"name": "VVS",
+					"phone": "+49 711 66060",
+					"id": "QWdlbmN5OjE6MQ"
+				},
+				"alerts": [],
+				"id": "Um91dGU6MTozMS03NzMtajIxLTQ",
+				"mode": "BUS"
+			},
+			"trip": {
+				"gtfsId": "1:7730158.T0.31-773-j21-4.24.R",
+				"tripHeadsign": "Herrenb. ZOB Bahnhofstraße",
+				"pattern": {
+					"code": "1:31-773-j21-4:1:01",
+					"id": "UGF0dGVybjoxOjMxLTc3My1qMjEtNDoxOjAx",
+					"geometry": [
+						{
+							"lat": 48.651814,
+							"lon": 8.822146
+						},
+						{
+							"lat": 48.651779,
+							"lon": 8.822608
+						},
+						{
+							"lat": 48.651726,
+							"lon": 8.822811
+						},
+						{
+							"lat": 48.651581,
+							"lon": 8.822703
+						},
+						{
+							"lat": 48.651192,
+							"lon": 8.821877
+						},
+						{
+							"lat": 48.651112,
+							"lon": 8.821565
+						},
+						{
+							"lat": 48.651039,
+							"lon": 8.820819
+						},
+						{
+							"lat": 48.650822,
+							"lon": 8.819869
+						},
+						{
+							"lat": 48.650524,
+							"lon": 8.819043
+						},
+						{
+							"lat": 48.650162,
+							"lon": 8.81842
+						},
+						{
+							"lat": 48.649811,
+							"lon": 8.818312
+						},
+						{
+							"lat": 48.649433,
+							"lon": 8.818585
+						},
+						{
+							"lat": 48.649433,
+							"lon": 8.818585
+						},
+						{
+							"lat": 48.649155,
+							"lon": 8.818735
+						},
+						{
+							"lat": 48.648788,
+							"lon": 8.818859
+						},
+						{
+							"lat": 48.647854,
+							"lon": 8.819106
+						},
+						{
+							"lat": 48.647385,
+							"lon": 8.819271
+						},
+						{
+							"lat": 48.646629,
+							"lon": 8.819654
+						},
+						{
+							"lat": 48.646629,
+							"lon": 8.819654
+						},
+						{
+							"lat": 48.646618,
+							"lon": 8.819661
+						},
+						{
+							"lat": 48.646408,
+							"lon": 8.819767
+						},
+						{
+							"lat": 48.64621,
+							"lon": 8.819931
+						},
+						{
+							"lat": 48.644749,
+							"lon": 8.82122
+						},
+						{
+							"lat": 48.643993,
+							"lon": 8.821829
+						},
+						{
+							"lat": 48.643414,
+							"lon": 8.822236
+						},
+						{
+							"lat": 48.641499,
+							"lon": 8.823391
+						},
+						{
+							"lat": 48.640865,
+							"lon": 8.823838
+						},
+						{
+							"lat": 48.639938,
+							"lon": 8.824532
+						},
+						{
+							"lat": 48.638504,
+							"lon": 8.825693
+						},
+						{
+							"lat": 48.637543,
+							"lon": 8.826374
+						},
+						{
+							"lat": 48.63652,
+							"lon": 8.826945
+						},
+						{
+							"lat": 48.634258,
+							"lon": 8.82796
+						},
+						{
+							"lat": 48.63274,
+							"lon": 8.828683
+						},
+						{
+							"lat": 48.631603,
+							"lon": 8.829268
+						},
+						{
+							"lat": 48.630116,
+							"lon": 8.830086
+						},
+						{
+							"lat": 48.629402,
+							"lon": 8.830535
+						},
+						{
+							"lat": 48.628922,
+							"lon": 8.830924
+						},
+						{
+							"lat": 48.628391,
+							"lon": 8.831466
+						},
+						{
+							"lat": 48.627628,
+							"lon": 8.832394
+						},
+						{
+							"lat": 48.627239,
+							"lon": 8.832751
+						},
+						{
+							"lat": 48.626926,
+							"lon": 8.83292
+						},
+						{
+							"lat": 48.626644,
+							"lon": 8.832994
+						},
+						{
+							"lat": 48.625725,
+							"lon": 8.833014
+						},
+						{
+							"lat": 48.625507,
+							"lon": 8.833138
+						},
+						{
+							"lat": 48.624859,
+							"lon": 8.833813
+						},
+						{
+							"lat": 48.624859,
+							"lon": 8.833813
+						},
+						{
+							"lat": 48.624691,
+							"lon": 8.83402
+						},
+						{
+							"lat": 48.624237,
+							"lon": 8.834748
+						},
+						{
+							"lat": 48.624134,
+							"lon": 8.834798
+						},
+						{
+							"lat": 48.623688,
+							"lon": 8.834795
+						},
+						{
+							"lat": 48.623322,
+							"lon": 8.834863
+						},
+						{
+							"lat": 48.622574,
+							"lon": 8.835401
+						},
+						{
+							"lat": 48.621357,
+							"lon": 8.835812
+						},
+						{
+							"lat": 48.621178,
+							"lon": 8.835899
+						},
+						{
+							"lat": 48.620956,
+							"lon": 8.836083
+						},
+						{
+							"lat": 48.620956,
+							"lon": 8.836083
+						},
+						{
+							"lat": 48.620392,
+							"lon": 8.836973
+						},
+						{
+							"lat": 48.619625,
+							"lon": 8.837828
+						},
+						{
+							"lat": 48.619114,
+							"lon": 8.838539
+						},
+						{
+							"lat": 48.618816,
+							"lon": 8.839109
+						},
+						{
+							"lat": 48.6185,
+							"lon": 8.839997
+						},
+						{
+							"lat": 48.618275,
+							"lon": 8.839838
+						},
+						{
+							"lat": 48.618118,
+							"lon": 8.839796
+						},
+						{
+							"lat": 48.618004,
+							"lon": 8.839808
+						},
+						{
+							"lat": 48.61784,
+							"lon": 8.839874
+						},
+						{
+							"lat": 48.61755,
+							"lon": 8.840137
+						},
+						{
+							"lat": 48.616951,
+							"lon": 8.840899
+						},
+						{
+							"lat": 48.616581,
+							"lon": 8.841291
+						},
+						{
+							"lat": 48.616058,
+							"lon": 8.841622
+						},
+						{
+							"lat": 48.614361,
+							"lon": 8.8424
+						},
+						{
+							"lat": 48.614307,
+							"lon": 8.842364
+						},
+						{
+							"lat": 48.613491,
+							"lon": 8.842615
+						},
+						{
+							"lat": 48.613327,
+							"lon": 8.842617
+						},
+						{
+							"lat": 48.612858,
+							"lon": 8.842456
+						},
+						{
+							"lat": 48.612713,
+							"lon": 8.842458
+						},
+						{
+							"lat": 48.612221,
+							"lon": 8.842688
+						},
+						{
+							"lat": 48.611591,
+							"lon": 8.842769
+						},
+						{
+							"lat": 48.611591,
+							"lon": 8.842769
+						},
+						{
+							"lat": 48.611416,
+							"lon": 8.842781
+						},
+						{
+							"lat": 48.611248,
+							"lon": 8.842735
+						},
+						{
+							"lat": 48.611031,
+							"lon": 8.842605
+						},
+						{
+							"lat": 48.610794,
+							"lon": 8.842546
+						},
+						{
+							"lat": 48.61018,
+							"lon": 8.844525
+						},
+						{
+							"lat": 48.609997,
+							"lon": 8.845263
+						},
+						{
+							"lat": 48.609844,
+							"lon": 8.84616
+						},
+						{
+							"lat": 48.60984,
+							"lon": 8.846587
+						},
+						{
+							"lat": 48.60984,
+							"lon": 8.846587
+						},
+						{
+							"lat": 48.609825,
+							"lon": 8.847547
+						},
+						{
+							"lat": 48.609913,
+							"lon": 8.849358
+						},
+						{
+							"lat": 48.609924,
+							"lon": 8.850407
+						},
+						{
+							"lat": 48.609871,
+							"lon": 8.851254
+						},
+						{
+							"lat": 48.609741,
+							"lon": 8.852076
+						},
+						{
+							"lat": 48.609451,
+							"lon": 8.85282
+						},
+						{
+							"lat": 48.609394,
+							"lon": 8.85292
+						},
+						{
+							"lat": 48.609295,
+							"lon": 8.852933
+						},
+						{
+							"lat": 48.609203,
+							"lon": 8.853057
+						},
+						{
+							"lat": 48.609184,
+							"lon": 8.853199
+						},
+						{
+							"lat": 48.609219,
+							"lon": 8.853339
+						},
+						{
+							"lat": 48.609119,
+							"lon": 8.85378
+						},
+						{
+							"lat": 48.608559,
+							"lon": 8.854808
+						},
+						{
+							"lat": 48.607838,
+							"lon": 8.855894
+						},
+						{
+							"lat": 48.607689,
+							"lon": 8.856181
+						},
+						{
+							"lat": 48.607525,
+							"lon": 8.856833
+						},
+						{
+							"lat": 48.607407,
+							"lon": 8.858143
+						},
+						{
+							"lat": 48.607407,
+							"lon": 8.858143
+						},
+						{
+							"lat": 48.607452,
+							"lon": 8.858899
+						},
+						{
+							"lat": 48.607433,
+							"lon": 8.85901
+						},
+						{
+							"lat": 48.607361,
+							"lon": 8.859097
+						},
+						{
+							"lat": 48.60677,
+							"lon": 8.859438
+						},
+						{
+							"lat": 48.606567,
+							"lon": 8.859519
+						},
+						{
+							"lat": 48.605701,
+							"lon": 8.859692
+						},
+						{
+							"lat": 48.604809,
+							"lon": 8.859935
+						},
+						{
+							"lat": 48.604809,
+							"lon": 8.859935
+						},
+						{
+							"lat": 48.603756,
+							"lon": 8.860223
+						},
+						{
+							"lat": 48.603012,
+							"lon": 8.860368
+						},
+						{
+							"lat": 48.602295,
+							"lon": 8.860463
+						},
+						{
+							"lat": 48.601566,
+							"lon": 8.860473
+						},
+						{
+							"lat": 48.60096,
+							"lon": 8.860405
+						},
+						{
+							"lat": 48.599728,
+							"lon": 8.860122
+						},
+						{
+							"lat": 48.599277,
+							"lon": 8.860141
+						},
+						{
+							"lat": 48.598869,
+							"lon": 8.860246
+						},
+						{
+							"lat": 48.597855,
+							"lon": 8.860888
+						},
+						{
+							"lat": 48.597626,
+							"lon": 8.861016
+						},
+						{
+							"lat": 48.597446,
+							"lon": 8.861066
+						},
+						{
+							"lat": 48.597446,
+							"lon": 8.861066
+						},
+						{
+							"lat": 48.597176,
+							"lon": 8.861078
+						},
+						{
+							"lat": 48.596405,
+							"lon": 8.86098
+						},
+						{
+							"lat": 48.595943,
+							"lon": 8.861017
+						},
+						{
+							"lat": 48.595478,
+							"lon": 8.861227
+						},
+						{
+							"lat": 48.595055,
+							"lon": 8.861571
+						},
+						{
+							"lat": 48.594997,
+							"lon": 8.861629
+						},
+						{
+							"lat": 48.594891,
+							"lon": 8.861894
+						},
+						{
+							"lat": 48.594864,
+							"lon": 8.862069
+						},
+						{
+							"lat": 48.594719,
+							"lon": 8.862095
+						},
+						{
+							"lat": 48.594639,
+							"lon": 8.862061
+						},
+						{
+							"lat": 48.594517,
+							"lon": 8.861761
+						},
+						{
+							"lat": 48.594299,
+							"lon": 8.861709
+						},
+						{
+							"lat": 48.594009,
+							"lon": 8.860883
+						},
+						{
+							"lat": 48.594002,
+							"lon": 8.8608
+						},
+						{
+							"lat": 48.594128,
+							"lon": 8.860687
+						},
+						{
+							"lat": 48.594341,
+							"lon": 8.861281
+						},
+						{
+							"lat": 48.594341,
+							"lon": 8.861281
+						},
+						{
+							"lat": 48.594639,
+							"lon": 8.862061
+						},
+						{
+							"lat": 48.594719,
+							"lon": 8.862095
+						},
+						{
+							"lat": 48.594864,
+							"lon": 8.862069
+						},
+						{
+							"lat": 48.594906,
+							"lon": 8.862256
+						},
+						{
+							"lat": 48.5952,
+							"lon": 8.863021
+						},
+						{
+							"lat": 48.595428,
+							"lon": 8.863508
+						},
+						{
+							"lat": 48.595531,
+							"lon": 8.863689
+						},
+						{
+							"lat": 48.595585,
+							"lon": 8.863724
+						},
+						{
+							"lat": 48.595589,
+							"lon": 8.865967
+						},
+						{
+							"lat": 48.595589,
+							"lon": 8.865967
+						},
+						{
+							"lat": 48.595566,
+							"lon": 8.867101
+						},
+						{
+							"lat": 48.595512,
+							"lon": 8.867288
+						},
+						{
+							"lat": 48.595428,
+							"lon": 8.86729
+						},
+						{
+							"lat": 48.595287,
+							"lon": 8.867211
+						},
+						{
+							"lat": 48.594791,
+							"lon": 8.86665
+						},
+						{
+							"lat": 48.594467,
+							"lon": 8.866368
+						},
+						{
+							"lat": 48.594429,
+							"lon": 8.866185
+						},
+						{
+							"lat": 48.594437,
+							"lon": 8.865792
+						},
+						{
+							"lat": 48.594406,
+							"lon": 8.865613
+						},
+						{
+							"lat": 48.594269,
+							"lon": 8.865232
+						},
+						{
+							"lat": 48.594383,
+							"lon": 8.865026
+						},
+						{
+							"lat": 48.594181,
+							"lon": 8.864408
+						}
+					],
+					"route": {
+						"mode": "BUS",
+						"color": "ff0000",
+						"id": "Um91dGU6MTozMS03NzMtajIxLTQ"
+					},
+					"stops": [
+						{
+							"lat": 48.651787,
+							"lon": 8.82216,
+							"name": "Deckenpfr. Rathaus",
+							"gtfsId": "1:de:08115:4838:0:3",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4Mzg6MDoz"
+						},
+						{
+							"lat": 48.649426,
+							"lon": 8.818585,
+							"name": "Deckenpfronn Tübinger Str.",
+							"gtfsId": "1:de:08115:4839:0:4",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4Mzk6MDo0"
+						},
+						{
+							"lat": 48.646622,
+							"lon": 8.819667,
+							"name": "Deckenpfronn Siemensstr.",
+							"gtfsId": "1:de:08115:7048:0:3",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjcwNDg6MDoz"
+						},
+						{
+							"lat": 48.62487,
+							"lon": 8.833825,
+							"name": "Oberjesingen Calwer Str.",
+							"gtfsId": "1:de:08115:4840:0:4",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDA6MDo0"
+						},
+						{
+							"lat": 48.620979,
+							"lon": 8.83613,
+							"name": "Oberjesingen Zaberstraße",
+							"gtfsId": "1:de:08115:4842:0:4",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDI6MDo0"
+						},
+						{
+							"lat": 48.611584,
+							"lon": 8.842765,
+							"name": "Kuppingen A.-Haut-Gasse",
+							"gtfsId": "1:de:08115:4844:0:4",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDQ6MDo0"
+						},
+						{
+							"lat": 48.609844,
+							"lon": 8.846581,
+							"name": "Kuppingen Jennerstr.",
+							"gtfsId": "1:de:08115:4845:0:4",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDU6MDo0"
+						},
+						{
+							"lat": 48.607441,
+							"lon": 8.858141,
+							"name": "Affstätt Kirche",
+							"gtfsId": "1:de:08115:4846:0:3",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDY6MDoz"
+						},
+						{
+							"lat": 48.604809,
+							"lon": 8.859924,
+							"name": "Affstätt Nelkenstr.",
+							"gtfsId": "1:de:08115:4854:0:3",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NTQ6MDoz"
+						},
+						{
+							"lat": 48.597443,
+							"lon": 8.861043,
+							"name": "Herrenberg Mühlweg",
+							"gtfsId": "1:de:08115:4848:0:4",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDg6MDo0"
+						},
+						{
+							"lat": 48.594288,
+							"lon": 8.861323,
+							"name": "Herrenberg Kalkofenstr.",
+							"gtfsId": "1:de:08115:3235:1:2",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjMyMzU6MToy"
+						},
+						{
+							"lat": 48.595543,
+							"lon": 8.86597,
+							"name": "Herrenberg Reinhold-Schick-Pl.",
+							"gtfsId": "1:de:08115:7013:0:3",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjcwMTM6MDoz"
+						},
+						{
+							"lat": 48.594193,
+							"lon": 8.864401,
+							"name": "Herrenb. ZOB Bahnhofstraße",
+							"gtfsId": "1:de:08115:4512:5:E",
+							"platformCode": null,
+							"code": null,
+							"desc": null,
+							"zoneId": null,
+							"alerts": [],
+							"stops": null,
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ1MTI6NTpF"
+						}
+					]
+				},
+				"stoptimes": [
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:4838:0:3",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4Mzg6MDoz"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:4839:0:4",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4Mzk6MDo0"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:7048:0:3",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjcwNDg6MDoz"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:4840:0:4",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDA6MDo0"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:4842:0:4",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDI6MDo0"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:4844:0:4",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDQ6MDo0"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:4845:0:4",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDU6MDo0"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:4846:0:3",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDY6MDoz"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:4854:0:3",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NTQ6MDoz"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:4848:0:4",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ4NDg6MDo0"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:3235:1:2",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjMyMzU6MToy"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:7013:0:3",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjcwMTM6MDoz"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "1:de:08115:4512:5:E",
+							"id": "U3RvcDoxOmRlOjA4MTE1OjQ1MTI6NTpF"
+						}
+					}
+				],
+				"id": "VHJpcDoxOjc3MzAxNTguVDAuMzEtNzczLWoyMS00LjI0LlI",
+				"directionId": "1",
+				"stoptimesForDate": [
+					{
+						"scheduledDeparture": 40800,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 40860,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 40920,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 41100,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 41160,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 41280,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 41340,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 41460,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 41520,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 41640,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 41760,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 41880,
+						"pickupType": "SCHEDULED"
+					},
+					{
+						"scheduledDeparture": 42240,
+						"pickupType": "SCHEDULED"
+					}
+				]
+			}
+		},
+		{
+			"mode": "WALK",
+			"alerts": null,
+			"agency": null,
+			"from": {
+				"lat": 48.595543,
+				"lon": 8.86597,
+				"name": "Herrenberg Reinhold-Schick-Pl.",
+				"vertexType": "TRANSIT",
+				"bikeRentalStation": null,
+				"stop": {
+					"gtfsId": "1:de:08115:7013:0:3",
+					"code": null,
+					"platformCode": null,
+					"vehicleMode": "BUS",
+					"zoneId": null,
+					"alerts": [],
+					"id": "U3RvcDoxOmRlOjA4MTE1OjcwMTM6MDoz"
+				}
+			},
+			"to": {
+				"lat": 48.590988,
+				"lon": 8.8717268,
+				"name": "Kleiststraße, 71083 Herrenberg",
+				"vertexType": "NORMAL",
+				"bikeRentalStation": null,
+				"stop": null,
+				"bikePark": null,
+				"carPark": null
+			},
+			"legGeometry": {
+				"length": 30,
+				"points": "cirgHisbu@G??_CJ@VNhAhAh@qADOPLLJ\\eAJ[BKVq@Xa@PGp@QnCu@xBw@?ChBi@vAa@OwBEaB?aBByA^OXGpASOuD"
+			},
+			"intermediatePlaces": null,
+			"realTime": false,
+			"realtimeState": null,
+			"transitLeg": false,
+			"rentedBike": false,
+			"startTime": 1619516280000,
+			"endTime": 1619517072000,
+			"interlineWithPreviousLeg": false,
+			"distance": 875.798,
+			"duration": 792,
+			"intermediatePlace": false,
+			"route": null,
+			"trip": null
+		}
+	]
+}
