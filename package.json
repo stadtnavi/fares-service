@@ -21,6 +21,9 @@
 	],
 	"scripts": {
 		"lint": "eslint .",
+		"test-e2e": "node test/index.js",
+		"test:record": "VCR_MODE=record node test/index.js",
+		"test": "VCR_MODE=playback node test/index.js",
 		"start": "node index.js"
 	},
 	"engines": {
@@ -36,6 +39,9 @@
 		"trias-client": "github:derhuerst/trias-client#0.5.0-alpha.0"
 	},
 	"devDependencies": {
-		"eslint": "^7.25.0"
+		"eslint": "^7.25.0",
+		"execa": "^5.0.0",
+		"nock": "^13.0.11",
+		"superagent": "^6.1.0"
 	}
 }
