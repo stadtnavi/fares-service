@@ -1,9 +1,9 @@
 FROM node:alpine
-LABEL org.opencontainers.image.title="ticketing-service"
+LABEL org.opencontainers.image.title="fares-service"
 LABEL org.opencontainers.image.description="Fetches fares for an OpenTripPlanner Itinerary from the VVS TRIAS API."
 LABEL org.opencontainers.image.authors="Jannis R <mail@jannisr.de>, Stadtnavi contributors"
-LABEL org.opencontainers.image.documentation="https://github.com/stadtnavi/ticketing-service/tree/5"
-LABEL org.opencontainers.image.source="https://github.com/stadtnavi/ticketing-service"
+LABEL org.opencontainers.image.documentation="https://github.com/stadtnavi/fares-service"
+LABEL org.opencontainers.image.source="https://github.com/stadtnavi/fares-service"
 LABEL org.opencontainers.image.revision="1"
 LABEL org.opencontainers.image.licenses="ISC"
 WORKDIR /app

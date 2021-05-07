@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"name": "ticketing-service",
+	"name": "fares-service",
 	"description": "Fetches fares for an OpenTripPlanner Itinerary from the VVS TRIAS API.",
 	"version": "1.0.0",
 	"main": "index.js",
@@ -8,9 +8,9 @@
 	"contributors": [
 		"Jannis R <mail@jannisr.de>"
 	],
-	"homepage": "https://github.com/stadtnavi/ticketing-service/tree/5",
-	"repository": "stadtnavi/ticketing-service",
-	"bugs": "https://github.com/stadtnavi/ticketing-service/issues",
+	"homepage": "https://github.com/stadtnavi/fares-service",
+	"repository": "stadtnavi/fares-service",
+	"bugs": "https://github.com/stadtnavi/fares-service/issues",
 	"license": "ISC",
 	"keywords": [
 		"stadtnavi",
