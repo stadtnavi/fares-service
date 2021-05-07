@@ -1,0 +1,20 @@
+name: run integration & E2E tests
+on: [push, pull_request]
+jobs:
+  test-integration:
+    name: integration tests
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x]
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: setup Node v${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run test
+      env:
+        TRIAS_REQUESTOR_REF: ${{ secrets.TRIAS_REQUESTOR_REF }}
