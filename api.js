@@ -8,7 +8,7 @@ const {json: parseJSONBody} = require('body-parser')
 const pkg = require('./package.json')
 const validateItinerary = require('./lib/validate-itinerary')
 
-const mockFares = [{
+const mockPublicTransportFares = [{
 	// https://github.com/HSLdevcom/digitransit-ui/blob/8d756832f6b986a0d38a16db1e0f5774d4d19c64/app/util/fareUtils.js
 	type: 'regular',
 	currency: 'EUR',
@@ -68,7 +68,7 @@ const createApi = (cfg = {}) => {
 
 	// todo: prevent caching?
 	// todo: expose TRIAS response times via Server-Timing?
-	api.post('/fares', parseJSONBody(), (req, res, next) => {
+	api.post('/', parseJSONBody(), (req, res, next) => {
 		const itinerary = req.body
 		try {
 			validateItinerary(itinerary)
@@ -79,7 +79,7 @@ const createApi = (cfg = {}) => {
 
 		// todo: find fares
 		// todo: generate ticket link
-		res.json(mockFares)
+		res.json(mockPublicTransportFares)
 		next()
 	})
 
