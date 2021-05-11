@@ -7,6 +7,7 @@ const compression = require('compression')
 const {json: parseJSONBody} = require('body-parser')
 const pkg = require('./package.json')
 const validateItinerary = require('./lib/validate-itinerary')
+const fetchFaresForItinerary = require('./lib/fetch-fares')
 
 const mockPublicTransportFares = [{
 	// https://github.com/HSLdevcom/digitransit-ui/blob/8d756832f6b986a0d38a16db1e0f5774d4d19c64/app/util/fareUtils.js
@@ -77,10 +78,13 @@ const createApi = (cfg = {}) => {
 			return next(validationError)
 		}
 
-		// todo: find fares
-		// todo: generate ticket link
-		res.json(mockPublicTransportFares)
-		next()
+		fetchFaresForItinerary(logger, itinerary)
+		.then((fares) => {
+			res.json(fares)
+			// todo: generate ticket links?
+			next()
+		})
+		.catch(next)
 	})
 
 	api.use((error, req, res, next) => {
