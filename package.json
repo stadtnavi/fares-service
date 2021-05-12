@@ -42,6 +42,7 @@
 		"eslint": "^7.25.0",
 		"execa": "^5.0.0",
 		"nock": "^13.0.11",
+		"pino-pretty": "^4.8.0",
 		"superagent": "^6.1.0"
 	}
 }
