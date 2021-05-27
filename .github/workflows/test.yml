@@ -14,6 +14,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: configure git to use https
+      run: |
+        git config --global url."https://github.com/".insteadOf 'ssh://git@github.com/'
+        git config url."https://".insteadOf 'git://'
     - run: npm ci
     - run: npm run test
       env:
