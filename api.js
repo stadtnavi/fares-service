@@ -67,9 +67,12 @@ const createApi = (cfg = {}) => {
 
 	api.use(compression())
 
+	const parseJSON = parseJSONBody({
+		limit: '1mb', // increase size limit for large itineraries
+	})
 	// todo: prevent caching?
 	// todo: expose TRIAS response times via Server-Timing?
-	api.post('/', parseJSONBody(), (req, res, next) => {
+	api.post('/', parseJSON, (req, res, next) => {
 		const itinerary = req.body
 		try {
 			validateItinerary(itinerary)
