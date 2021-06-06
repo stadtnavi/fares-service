@@ -74,6 +74,7 @@ const createApi = (cfg = {}) => {
 	// todo: expose TRIAS response times via Server-Timing?
 	api.post('/', parseJSON, (req, res, next) => {
 		const itinerary = req.body
+		logger.debug({itinerary}, 'received request')
 		try {
 			validateItinerary(itinerary)
 		} catch (validationError) {
