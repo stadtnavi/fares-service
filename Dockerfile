@@ -13,6 +13,8 @@ RUN npm ci --only=production && npm cache clean --force
 
 WORKDIR /app
 
+ENV TIMEZONE Europe/Berlin
+
 ADD . /app
 
 EXPOSE 3000

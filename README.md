@@ -23,6 +23,7 @@ docker run -d -p 3000:3000 stadtnavi/fares-service
 ```shell
 git clone https://github.com/stadtnavi/fares-service.git
 cd fares-service
+export TIMEZONE=Europe/Berlin
 npm install --production
 npm start
 ```

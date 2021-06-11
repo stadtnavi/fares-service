@@ -21,4 +21,5 @@ jobs:
     - run: npm ci
     - run: npm run test
       env:
+        TIMEZONE: Europe/Berlin
         TRIAS_REQUESTOR_REF: ${{ secrets.TRIAS_REQUESTOR_REF }}

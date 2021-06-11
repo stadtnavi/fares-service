@@ -9,7 +9,7 @@ module.exports = [
 			fareId: '020112',
 			currency: 'EUR',
 			cents: 320,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -20,7 +20,7 @@ module.exports = [
 			fareId: '020212',
 			currency: 'EUR',
 			cents: 150,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -31,7 +31,7 @@ module.exports = [
 			fareId: '020152',
 			currency: 'EUR',
 			cents: 302,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -42,7 +42,7 @@ module.exports = [
 			fareId: '020252',
 			currency: 'EUR',
 			cents: 142,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -53,7 +53,7 @@ module.exports = [
 			fareId: '090312',
 			currency: 'EUR',
 			cents: 150,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -64,7 +64,7 @@ module.exports = [
 			fareId: '030112',
 			currency: 'EUR',
 			cents: 1210,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -75,7 +75,7 @@ module.exports = [
 			fareId: '030212',
 			currency: 'EUR',
 			cents: 570,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -86,7 +86,7 @@ module.exports = [
 			fareId: '050242',
 			currency: 'EUR',
 			cents: 640,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -97,7 +97,7 @@ module.exports = [
 			fareId: '050252',
 			currency: 'EUR',
 			cents: 604,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -107,7 +107,7 @@ module.exports = [
 			fareId: '050142',
 			currency: 'EUR',
 			cents: 1240,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -117,7 +117,7 @@ module.exports = [
 			fareId: '050152',
 			currency: 'EUR',
 			cents: 1220,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -128,7 +128,7 @@ module.exports = [
 			fareId: '052252',
 			currency: 'EUR',
 			cents: 4590,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -139,7 +139,7 @@ module.exports = [
 			fareId: '110212',
 			currency: 'EUR',
 			cents: 2860,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -150,7 +150,7 @@ module.exports = [
 			fareId: '120112',
 			currency: 'EUR',
 			cents: 9060,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -161,7 +161,7 @@ module.exports = [
 			fareId: '134412',
 			currency: 'EUR',
 			cents: 90600,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -172,7 +172,7 @@ module.exports = [
 			fareId: '134512',
 			currency: 'EUR',
 			cents: 104400,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -182,7 +182,7 @@ module.exports = [
 			fareId: '210132',
 			currency: 'EUR',
 			cents: 6600,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -193,7 +193,7 @@ module.exports = [
 			fareId: '310143',
 			currency: 'EUR',
 			cents: 5950,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -204,7 +204,7 @@ module.exports = [
 			fareId: '324449',
 			currency: 'EUR',
 			cents: 58200,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -215,7 +215,7 @@ module.exports = [
 			fareId: '140412',
 			currency: 'EUR',
 			cents: 86100,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -226,7 +226,7 @@ module.exports = [
 			fareId: '145412',
 			currency: 'EUR',
 			cents: 7173,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -237,7 +237,7 @@ module.exports = [
 			fareId: '141412',
 			currency: 'EUR',
 			cents: 99200,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -248,7 +248,7 @@ module.exports = [
 			fareId: '146412',
 			currency: 'EUR',
 			cents: 8265,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -259,7 +259,7 @@ module.exports = [
 			fareId: 'Dumm02',
 			currency: 'EUR',
 			cents: 81540,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -270,7 +270,7 @@ module.exports = [
 			fareId: '145512',
 			currency: 'EUR',
 			cents: 6795,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -281,7 +281,7 @@ module.exports = [
 			fareId: 'Dumm09',
 			currency: 'EUR',
 			cents: 93960,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -292,7 +292,7 @@ module.exports = [
 			fareId: '146512',
 			currency: 'EUR',
 			cents: 7830,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -303,7 +303,7 @@ module.exports = [
 			fareId: '410152',
 			currency: 'EUR',
 			cents: 7050,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -314,7 +314,7 @@ module.exports = [
 			fareId: '424452',
 			currency: 'EUR',
 			cents: 70500,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -325,7 +325,7 @@ module.exports = [
 			fareId: '424552',
 			currency: 'EUR',
 			cents: 84300,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 	{
@@ -335,7 +335,7 @@ module.exports = [
 			fareId: '226339',
 			currency: 'EUR',
 			cents: 20900,
-			url: 'https://example.org/fares/foo',
+			url: 'https://www3.vvs.de/mng/#!/XSLT_TRIP_REQUEST2@init?language=de&deeplink=%7B%22dateTime%22%3A%7B%22date%22%3A%2201.06.2021%22%2C%22time%22%3A%2210%3A07%22%2C%22useRealTime%22%3Atrue%2C%22isDeparture%22%3Atrue%7D%2C%22via%22%3A%7B%22optionsList%22%3A%5B%5D%2C%22optionsListItem%22%3A%7B%22type%22%3A%22any%22%2C%22dwellTime%22%3A%220%22%2C%22enabled%22%3Atrue%7D%7D%2C%22odvs%22%3A%7B%22orig%22%3A%22de%3A08115%3A5774%3A1%3A1%22%2C%22dest%22%3A%22de%3A08115%3A4512%3A1%3A3%22%7D%7D',
 		}],
 	},
 ]
