@@ -21,7 +21,7 @@ const spawnApiServer = async () => {
 	server.stdout.pipe(process.stdout)
 	server.stderr.pipe(process.stderr)
 	server.once('close', (exitCode) => {
-		if (exitCode === null) return;
+		if (exitCode === null || exitCode === 0) return;
 		console.error(`server exited unexpectedly with exit code ${exitCode}`)
 		process.exit(exitCode || 1)
 	})
