@@ -6,7 +6,10 @@ const assert = require('assert')
 const itGärtringenHerrenberg = require('./otp-itinerary-gärtringen-herrenberg.json')
 const gärtringenHerrenbergFares = require('./gärtringen-herrenberg-fares')
 const itNufringenHerrenberg = require('./otp-itinerary-nufringen-herrenberg.json')
+const itStuttgartHbfGültstein = require('./otp-itinerary-stuttgart-hbf-gültstein.js')
 const nufringenHerrenbergFares = require('./nufringen-herrenberg-fares')
+
+require('./trias-journey-matches-otp-itinerary')
 
 const spawnApiServer = async () => {
 	console.debug('spawning API server as a child process')
@@ -53,6 +56,20 @@ const spawnApiServer = async () => {
 	assert.strictEqual(res2.statusCode, 200)
 	assert.strictEqual(res2.headers['content-type'], 'application/json; charset=utf-8')
 	assert.deepStrictEqual(res2.body, nufringenHerrenbergFares)
+
+	{
+		const res = await superagent
+		.post('http://localhost:3000/')
+		.set('content-type', 'application/json')
+		.set('accept', 'application/json')
+		.send(JSON.stringify(itStuttgartHbfGültstein))
+
+		assert.strictEqual(res.statusCode, 200)
+		assert.strictEqual(res.headers['content-type'], 'application/json; charset=utf-8')
+		// Since TRIAS returns different route names ("RB14a" vs "RB14", "SEV" vs "RB60E"),
+		// we can't match any TRIAS journey with the OTP itinerary.
+		assert.deepStrictEqual(res.body, [])
+	}
 
 	console.info('✔︎ basic public transport works')
 
