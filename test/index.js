@@ -8,8 +8,10 @@ const gärtringenHerrenbergFares = require('./gärtringen-herrenberg-fares')
 const itNufringenHerrenberg = require('./otp-itinerary-nufringen-herrenberg.json')
 const itStuttgartHbfGültstein = require('./otp-itinerary-stuttgart-hbf-gültstein.js')
 const itBöblingenHerrenbergRuftaxi = require('./otp-itinerary-böblingen-herrenberg-ruftaxi.json')
+const itStuttgartHbfVaihingenRathaus = require('./otp-itinerary-stuttgart-vaihingen.json')
 const nufringenHerrenbergFares = require('./nufringen-herrenberg-fares')
 const stuttgartHbfGültsteinFares = require('./stuttgart-hbf-gültstein-fares')
+const stuttgartHbfVaihingenFares = require('./stuttgart-hbf-vaihingen-fares')
 
 require('./trias-journey-matches-otp-itinerary')
 
@@ -83,6 +85,18 @@ const spawnApiServer = async () => {
 		// Since NVBW TRIAS doesn't seem to take Herrenberg Ruftaxis into account when
 		// calculating fares, we return an empty set.
 		assert.deepStrictEqual(res.body, [])
+	}
+
+	{
+		const res = await superagent
+		.post('http://localhost:3000/')
+		.set('content-type', 'application/json')
+		.set('accept', 'application/json')
+		.send(JSON.stringify(itStuttgartHbfVaihingenRathaus))
+
+		assert.strictEqual(res.statusCode, 200)
+		assert.strictEqual(res.headers['content-type'], 'application/json; charset=utf-8')
+		assert.deepStrictEqual(res.body, stuttgartHbfVaihingenFares)
 	}
 
 	console.info('✔︎ basic public transport works')
