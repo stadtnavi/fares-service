@@ -10,7 +10,7 @@ const itStuttgartHbfGültstein = require('./otp-itinerary-stuttgart-hbf-gültste
 const itBöblingenHerrenbergRuftaxi = require('./otp-itinerary-böblingen-herrenberg-ruftaxi.json')
 const itStuttgartHbfVaihingenRathaus = require('./otp-itinerary-stuttgart-vaihingen.json')
 const nufringenHerrenbergFares = require('./nufringen-herrenberg-fares')
-const stuttgartHbfGültsteinFares = require('./stuttgart-hbf-gültstein-fares')
+const stuttgartHbfGültsteinFares = require('./stuttgart-hbf-gültstein-fares')
 const stuttgartHbfVaihingenFares = require('./stuttgart-hbf-vaihingen-fares')
 
 require('./trias-journey-matches-otp-itinerary')
