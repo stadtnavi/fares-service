@@ -1,0 +1,751 @@
+{
+	"duration": 2078,
+	"endTime": 1624881045000,
+	"legs": [
+		{
+			"alerts": [],
+			"distance": 651.312,
+			"dropOffBookingInfo": null,
+			"duration": 533,
+			"endTime": 1624879500000,
+			"from": {
+				"bikeRentalStation": null,
+				"lat": 48.7784485,
+				"lon": 9.1800132,
+				"name": "Stuttgart",
+				"stop": null,
+				"vertexType": "NORMAL"
+			},
+			"interlineWithPreviousLeg": false,
+			"intermediatePlace": false,
+			"intermediatePlaces": null,
+			"legGeometry": {
+				"length": 30,
+				"points": "m`vhHo}_w@D@Ov@SMUN]R}@h@EBe@VGDKFCECCkN{EIImAcAKIeAy@GGMb@GRELQh@DBUp@ELIIQBE@AC"
+			},
+			"mode": "WALK",
+			"realTime": false,
+			"realtimeState": null,
+			"rentedBike": false,
+			"route": null,
+			"startTime": 1624878967000,
+			"to": {
+				"bikePark": null,
+				"bikeRentalStation": null,
+				"carPark": null,
+				"lat": 48.78342,
+				"lon": 9.180161,
+				"name": "Stuttgart Hauptbahnhof (tief)",
+				"stop": {
+					"alerts": [],
+					"code": null,
+					"gtfsId": "hbg:de:08111:6118:1:101",
+					"name": "Stuttgart Hauptbahnhof (tief)",
+					"platformCode": null,
+					"zoneId": null
+				},
+				"vehicleParkingWithEntrance": null,
+				"vertexType": "TRANSIT"
+			},
+			"transitLeg": false,
+			"trip": null
+		},
+		{
+			"alerts": [],
+			"distance": 7360.636589751266,
+			"dropOffBookingInfo": null,
+			"duration": 600,
+			"endTime": 1624880100000,
+			"from": {
+				"bikeRentalStation": null,
+				"lat": 48.78342,
+				"lon": 9.180161,
+				"name": "Stuttgart Hauptbahnhof (tief)",
+				"stop": {
+					"alerts": [],
+					"code": null,
+					"gtfsId": "hbg:de:08111:6118:1:101",
+					"platformCode": null,
+					"vehicleMode": "RAIL",
+					"zoneId": null
+				},
+				"vertexType": "TRANSIT"
+			},
+			"interlineWithPreviousLeg": null,
+			"intermediatePlace": false,
+			"intermediatePlaces": [
+				{
+					"arrivalTime": 1624879620000,
+					"stop": {
+						"code": null,
+						"gtfsId": "hbg:de:08111:6056:1:1",
+						"lat": 48.77635,
+						"lon": 9.172952,
+						"name": "Stadtmitte",
+						"platformCode": null,
+						"zoneId": null
+					}
+				},
+				{
+					"arrivalTime": 1624879680000,
+					"stop": {
+						"code": null,
+						"gtfsId": "hbg:de:08111:6221:1:1",
+						"lat": 48.772644,
+						"lon": 9.165837,
+						"name": "Feuersee",
+						"platformCode": null,
+						"zoneId": null
+					}
+				},
+				{
+					"arrivalTime": 1624879800000,
+					"stop": {
+						"code": null,
+						"gtfsId": "hbg:de:08111:6052:1:1",
+						"lat": 48.77019,
+						"lon": 9.15647,
+						"name": "Schwabstraße",
+						"platformCode": null,
+						"zoneId": null
+					}
+				}
+			],
+			"legGeometry": {
+				"length": 36,
+				"points": "m_whH__`w@xCjCfEzCbFvE~FbGnCxC`FrGnElF??~H`JhAxA|BrE`@tAzDjT??|C|PjIng@??pCzPb@zEhBzLtCvMxTjw@jRjp@tMxc@zi@zlBjB~DrFdGtFjBxAPjABhBIxASbGsAfB{@`BaA"
+			},
+			"mode": "RAIL",
+			"realTime": false,
+			"realtimeState": null,
+			"rentedBike": null,
+			"route": {
+				"agency": {
+					"fareUrl": null,
+					"gtfsId": "hbg:1",
+					"name": "VVS",
+					"phone": "+49 711 66060"
+				},
+				"alerts": [],
+				"color": "83B23B",
+				"desc": null,
+				"gtfsId": "hbg:10-2-j21-22",
+				"longName": "Schorndorf - Stuttgart - Flughafen/Messe - Filderstadt",
+				"shortName": "S2",
+				"type": 2,
+				"url": null
+			},
+			"startTime": 1624879500000,
+			"to": {
+				"bikePark": null,
+				"bikeRentalStation": null,
+				"carPark": null,
+				"lat": 48.74509,
+				"lon": 9.105837,
+				"name": "Universität",
+				"stop": {
+					"alerts": [],
+					"code": null,
+					"gtfsId": "hbg:de:08111:6008:1:1",
+					"name": "Universität",
+					"platformCode": null,
+					"zoneId": null
+				},
+				"vehicleParkingWithEntrance": null,
+				"vertexType": "TRANSIT"
+			},
+			"transitLeg": true,
+			"trip": {
+				"gtfsId": "hbg:28.T0.10-2-j21-22.8.H",
+				"pattern": {
+					"code": "hbg:10-2-j21-22:0:04"
+				},
+				"stoptimes": [
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08119:7703:1:14"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08119:1704:1:2"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08119:1705:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08119:1702:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08119:1703:1:2"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08119:3711:1:2"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08119:7704:1:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08119:1701:1:2"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08119:7701:2:2"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08119:7604:2:5"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08119:6500:1:4"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:1300:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:34:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6333:1:2"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6118:1:101"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6056:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6221:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6052:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6008:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6027:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6002:1:2"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6001:1:2"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08116:2105:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08116:175:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08116:7003:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08116:2103:1:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08116:1905:1:2"
+						}
+					}
+				],
+				"tripHeadsign": "Filderstadt"
+			}
+		},
+		{
+			"alerts": [],
+			"distance": 238.40299999999996,
+			"dropOffBookingInfo": null,
+			"duration": 186,
+			"endTime": 1624880286000,
+			"from": {
+				"bikeRentalStation": null,
+				"lat": 48.74509,
+				"lon": 9.105837,
+				"name": "Universität",
+				"stop": {
+					"alerts": [],
+					"code": null,
+					"gtfsId": "hbg:de:08111:6008:1:1",
+					"platformCode": null,
+					"vehicleMode": "RAIL",
+					"zoneId": null
+				},
+				"vertexType": "TRANSIT"
+			},
+			"interlineWithPreviousLeg": false,
+			"intermediatePlace": false,
+			"intermediatePlaces": null,
+			"legGeometry": {
+				"length": 19,
+				"points": "yoohHmnqv@?GlBcABA\\W@A@AEQA@QJA@FT?JF\\HEDCJGb@dBCB"
+			},
+			"mode": "WALK",
+			"realTime": false,
+			"realtimeState": null,
+			"rentedBike": false,
+			"route": null,
+			"startTime": 1624880100000,
+			"to": {
+				"bikePark": null,
+				"bikeRentalStation": null,
+				"carPark": null,
+				"lat": 48.74411,
+				"lon": 9.105617,
+				"name": "Universität",
+				"stop": {
+					"alerts": [],
+					"code": null,
+					"gtfsId": "hbg:de:08111:6008:3:3",
+					"name": "Universität",
+					"platformCode": null,
+					"zoneId": null
+				},
+				"vehicleParkingWithEntrance": null,
+				"vertexType": "TRANSIT"
+			},
+			"transitLeg": false,
+			"trip": null
+		},
+		{
+			"alerts": [],
+			"distance": 1832.7024225239527,
+			"dropOffBookingInfo": null,
+			"duration": 360,
+			"endTime": 1624881000000,
+			"from": {
+				"bikeRentalStation": null,
+				"lat": 48.74411,
+				"lon": 9.105617,
+				"name": "Universität",
+				"stop": {
+					"alerts": [],
+					"code": null,
+					"gtfsId": "hbg:de:08111:6008:3:3",
+					"platformCode": null,
+					"vehicleMode": "BUS",
+					"zoneId": null
+				},
+				"vertexType": "TRANSIT"
+			},
+			"interlineWithPreviousLeg": null,
+			"intermediatePlace": false,
+			"intermediatePlaces": [
+				{
+					"arrivalTime": 1624880640000,
+					"stop": {
+						"code": null,
+						"gtfsId": "hbg:de:08111:2603:0:3",
+						"lat": 48.74285,
+						"lon": 9.10382,
+						"name": "Schranne",
+						"platformCode": null,
+						"zoneId": null
+					}
+				},
+				{
+					"arrivalTime": 1624880760000,
+					"stop": {
+						"code": null,
+						"gtfsId": "hbg:de:08111:2580:0:3",
+						"lat": 48.739506,
+						"lon": 9.105404,
+						"name": "Johannesgraben",
+						"platformCode": null,
+						"zoneId": null
+					}
+				},
+				{
+					"arrivalTime": 1624880880000,
+					"stop": {
+						"code": null,
+						"gtfsId": "hbg:de:08111:2602:0:3",
+						"lat": 48.735664,
+						"lon": 9.106782,
+						"name": "Vaihingen Alter Friedhof",
+						"platformCode": null,
+						"zoneId": null
+					}
+				},
+				{
+					"arrivalTime": 1624880940000,
+					"stop": {
+						"code": null,
+						"gtfsId": "hbg:de:08111:2701:0:3",
+						"lat": 48.733444,
+						"lon": 9.106805,
+						"name": "Kreuzstraße",
+						"platformCode": null,
+						"zoneId": null
+					}
+				}
+			],
+			"legGeometry": {
+				"length": 43,
+				"points": "qiohHemqv@z@lC~@lBt@dAdAh@??|@V~@HdAChCi@l@B`@R`@sAzEuF??|D}DJQj@kB\\[~@a@Zk@XHRWRLTDxD{@vBGNnE??@^JNpDA^ArEs@??zA[bBME_DQeDjBo@fBu@^UZ_@"
+			},
+			"mode": "BUS",
+			"realTime": false,
+			"realtimeState": null,
+			"rentedBike": null,
+			"route": {
+				"agency": {
+					"fareUrl": null,
+					"gtfsId": "hbg:1",
+					"name": "VVS",
+					"phone": "+49 711 66060"
+				},
+				"alerts": [],
+				"color": "FF0000",
+				"desc": null,
+				"gtfsId": "hbg:30-82-j21-1",
+				"longName": "Waldeck - Vaihingen - Rohr (- Leinfelden Bf)",
+				"shortName": "82",
+				"type": 3,
+				"url": null
+			},
+			"startTime": 1624880640000,
+			"to": {
+				"bikePark": null,
+				"bikeRentalStation": null,
+				"carPark": null,
+				"lat": 48.731247,
+				"lon": 9.109451,
+				"name": "Vaihingen Rathaus",
+				"stop": {
+					"alerts": [],
+					"code": null,
+					"gtfsId": "hbg:de:08111:2595:0:3",
+					"name": "Vaihingen Rathaus",
+					"platformCode": null,
+					"zoneId": null
+				},
+				"vehicleParkingWithEntrance": null,
+				"vertexType": "TRANSIT"
+			},
+			"transitLeg": true,
+			"trip": {
+				"gtfsId": "hbg:54.T0.30-82-j21-1.3.H",
+				"pattern": {
+					"code": "hbg:30-82-j21-1:0:01"
+				},
+				"stoptimes": [
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6010:2:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2578:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2609:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2605:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2604:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6008:3:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2603:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2580:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2602:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2701:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2595:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6004:2:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6012:1:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6002:7:6"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6015:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6016:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2615:0:1"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2610:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2615:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2616:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:2611:0:3"
+						}
+					},
+					{
+						"pickupType": "SCHEDULED",
+						"realtimeState": "SCHEDULED",
+						"stop": {
+							"gtfsId": "hbg:de:08111:6014:3:1"
+						}
+					}
+				],
+				"tripHeadsign": "Rohr Mitte"
+			}
+		},
+		{
+			"alerts": [],
+			"distance": 54.693000000000005,
+			"dropOffBookingInfo": null,
+			"duration": 45,
+			"endTime": 1624881045000,
+			"from": {
+				"bikeRentalStation": null,
+				"lat": 48.731247,
+				"lon": 9.109451,
+				"name": "Vaihingen Rathaus",
+				"stop": {
+					"alerts": [],
+					"code": null,
+					"gtfsId": "hbg:de:08111:2595:0:3",
+					"platformCode": null,
+					"vehicleMode": "BUS",
+					"zoneId": null
+				},
+				"vertexType": "TRANSIT"
+			},
+			"interlineWithPreviousLeg": false,
+			"intermediatePlace": false,
+			"intermediatePlaces": null,
+			"legGeometry": {
+				"length": 8,
+				"points": "gylhHaerv@?@KNONAAOWC[C["
+			},
+			"mode": "WALK",
+			"realTime": false,
+			"realtimeState": null,
+			"rentedBike": false,
+			"route": null,
+			"startTime": 1624881000000,
+			"to": {
+				"bikePark": null,
+				"bikeRentalStation": null,
+				"carPark": null,
+				"lat": 48.7314075,
+				"lon": 9.1097281,
+				"name": "Vaihingen, 70563 Stuttgart",
+				"stop": null,
+				"vehicleParkingWithEntrance": null,
+				"vertexType": "NORMAL"
+			},
+			"transitLeg": false,
+			"trip": null
+		}
+	],
+	"startTime": 1624878967000,
+	"walkDistance": 944.4079999999999
+}
