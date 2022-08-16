@@ -36,7 +36,7 @@
 		"express": "^4.17.1",
 		"luxon": "^3.0.1",
 		"pino": "^8.4.1",
-		"trias-client": "github:derhuerst/trias-client#0.5.0-alpha.0"
+		"trias-client": "github:derhuerst/trias-client#0.6.0-alpha.0"
 	},
 	"devDependencies": {
 		"eslint": "^8.22.0",
