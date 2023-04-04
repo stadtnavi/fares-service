@@ -56,3 +56,4 @@ jobs:
             stadtnavi/fares-service:${{ github.sha }}
             ghcr.io/stadtnavi/fares-service:latest
             ghcr.io/stadtnavi/fares-service:${{ github.sha }}
+          platforms: linux/amd64,linux/arm64
